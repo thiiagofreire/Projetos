@@ -1,0 +1,126 @@
+*{
+    font-family: arial;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/987/747/original/abstract-white-and-blue-gradient-triangles-overlapping-background-free-vector.jpg);
+    object-fit: cover;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    text-shadow: -2px 1px 0px rgb(242, 237, 255);
+    
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: -2px 1px 0px rgb(242, 237, 255);   
+}
+
+fieldset {
+    width: auto;
+    height: auto;
+    background: linear-gradient(to right, #4382c9, #5bafe4);
+ 
+}
+
+legend {
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 3px rgb(0, 0, 0);
+}
+
+#bottom {
+    text-align: center;
+    
+}
+    
+.botaocad{
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bolder;
+    background: linear-gradient(to right, #4382c9, #5bafe4);
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    
+}
+
+.tamanho {
+    width: auto;
+}
+
+label {
+    font-size: 18px;
+    font-style: italic;
+    text-shadow: 1px 3px rgb(0, 0, 0);
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 15px;
+    color: rgb(229, 255, 0);
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    
+}
+
+#bill{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size:cover;
+    height: 220px;
+    margin-top: 3%;
+}
+.titlepage2 h1{
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+.textopage2 h2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-top: 3%;
+
+}
+.texto2page2 h3{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: end;
+    font-style: italic;
+    margin-top: 2%;
+
+}

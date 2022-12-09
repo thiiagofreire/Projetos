@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-with, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="assets/css/pesquisa.css" />
+        <title>TH Company</title>
+
+    </head>
+    <body>
+        <h1>Processo Seletivo Dev's!</h1>
+        <h2>Área de cadastro</h2>
+            <form action="formulariopesquisa2.html" method="GET">
+                <fieldset>
+                    <legend> Dados Pessoais</legend>
+                        <label for="name">
+                            Nome: <br/>
+                            <input type="text" name="name" required minlength="3" maxlength="10"/>
+                        </label><br/><br/>
+                        <label for="lastname">
+                            Sobrenome: <br/>
+                            <input type="text" name="lastname"required minlength="3" maxlength="15"/>
+                        </label><br/><br/>
+                        <label for="date">
+                            Data de nascimento: <br/>
+                            <input type="date" name="date"required/>
+                        </label><br/><br/>
+                        <label for="gender">Gênero:</label><br/>
+                        <select id="gender"required>
+                            <option value="Homem">Homem (Trans ou Cis)</option>
+                            <option value="Mulher">Mulher (Trans ou Cis)</option>
+                            <option value="Nao_Binario">Gênero Não-Binário</option>
+                        </select>
+                </fieldset><br/>
+                <fieldset>
+                    <legend> Dados complementares</legend>
+                        <label for="adress">  
+                            Endereço: <br/>
+                            <input type="text" name="adress" required minlength="3" maxlength="15"/>
+                        </label><br/><br/>
+                        <label for="number_adress">
+                            Número: <br/>
+                            <input type="text" name="number_adress" required minlength="1" maxlength="4" name="numbers" pattern="[0-9]+$" title="Digite somente números"/>
+                        </label><br/><br/>
+                        <label for="district">
+                            Bairro: <br/>
+                            <input type="text" name="district"required/>
+                        </label><br/><br/>
+                        <label for="complement">
+                            Complemento: <br/>
+                            <input type="text" name="complement"required/>
+                        </label><br/><br/>
+                        <label for="UF">Estado</label><br/>
+                        <select id="uf"required>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select><br/><br/>
+                        <label for="phone">
+                            Telefone: <br/>
+                            <input type="tel" name="phone" maxlength="13" />
+                </fieldset><br/>
+                <fieldset>
+                    <legend> Login</legend>
+                        <label for="email">
+                           Digite um e-mail: <br/>
+                            <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Exemplo: nome@dominio.com"/>
+                        </label><br/><br/>
+                        <label for="password">
+                            Criar nova senha: <br/>
+                            <input type="password" name="password" pattern=".{8,}" title="8 ou mais caracteres"/>
+                        </label><br/>
+                </fieldset><br/>
+                <div id="bottom">
+                    <input type="submit" value="Cadastrar" class="botaocad"/>
+                </div>
+                
+    </body>
+    <footer>
+        <div class="footer_copy">
+            TH  Copyright - Todos os direitos reservados
+        </div>
+    </footer>
+</html>

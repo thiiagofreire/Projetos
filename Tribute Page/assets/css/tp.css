@@ -1,0 +1,139 @@
+* {
+    font-family: Arial;
+    
+}
+body {
+    margin:0;
+    padding: 0;
+   
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+    background-size: cover;
+    background: rgb(2,0,36);
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7903536414565826) 50%, rgba(0,212,255,1) 100%);
+    border-bottom: 1px solid white;
+    
+}
+.container {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    flex-direction: column;
+   
+    
+}
+.container img {
+    padding-top: 20px;
+    width: 80px;
+    height: 120px;
+    object-fit: contain;
+   
+    
+}
+
+.titulo h1{
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+    margin:1px;
+    margin-top: -100px;
+    word-spacing: 70px;
+    
+    
+}
+.corpo h2 {
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -20px;
+    
+}
+.data h3 {
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-bottom: 1px;
+ 
+}
+
+.texto_banner {
+    flex: 1;
+    color: white;
+    background-color: none;
+    height: 40px;
+    padding: 20;
+    padding-top: 50px;
+    flex-direction: row;
+    
+}
+.texto_banner h1{
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+
+}
+.texto_banner h2{
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image:url('../img/mj4.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    
+}
+
+.container_FlexColumn {
+    display: flex;
+    
+    flex-direction: column;
+}
+footer{
+    border-top: 1px solid white;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.7903536414565826) 50%, rgba(0,212,255,1) 100%);
+    margin:0;
+}
+
+.footer_menu {
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-size: 15px;
+    
+    
+}
+.footer_menu img {
+    
+}
+
+.footer_copy {
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
